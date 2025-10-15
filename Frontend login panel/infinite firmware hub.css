@@ -4,13 +4,16 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+/* LOGIN PAGE */
+
 body{
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background: url(bg.jpg) no-repeat;
-   background-size: cover;
+  background-size: cover;
   background-position: center;
 }
 .wrapper{

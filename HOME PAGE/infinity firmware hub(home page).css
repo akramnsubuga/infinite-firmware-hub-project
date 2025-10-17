@@ -3,12 +3,20 @@
     padding: 0;
     font-family: sans-serif;
 }
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .container{
     height: 100vh;
     width: 100%;
     position: relative;
-    background: #191513;
 }
 .navbars{
     width: 90%;
@@ -106,5 +114,20 @@ span{
     height: 5px;
     border: 1px solid #eea16d;
     border-radius: 50%;
-    margin-right: 5px
+    margin-right: 5px;
+} 
+
+.active {
+    background: #eea16d;
+}
+.social-links {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    transform: translateY(-50%);
+}
+    .social-links img {
+        width: 15px;
+        display: block;
+        margin: 30px 0;
 }
